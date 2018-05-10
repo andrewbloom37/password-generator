@@ -11,4 +11,5 @@ const coinFlip = () => Math.round(cryptoRando());
 
 const createPassword = strArr => (strArr.join('').length < 24 ? createPassword([...strArr, (coinFlip() ? randomWord(words) : randomNumber())]) : strArr);
 
+// only side-effect:
 console.log(createPassword(['']).map(e => e.split('').map((v, i) => i === 0 ? v.toUpperCase() : v).join('')).join(''));

@@ -20,6 +20,8 @@ from the command line. The script will log a string no less than 12 characters i
 
 Created by Andrew Bloom
 
-Idea borrowed from Computerphile 'Diceware & Passwords': https://www.youtube.com/watch?v=Pe_3cFuSw1E
+Idea borrowed from [Computerphile 'Diceware & Passwords'](https://www.youtube.com/watch?v=Pe_3cFuSw1E)
 
-Word list taken from https://github.com/dwyl/english-words
+Word list taken from [dwyl/english-words](https://github.com/dwyl/english-words)
+
+See also: [xkcd #936](https://xkcd.com/936/)
